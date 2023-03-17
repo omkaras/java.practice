@@ -1,0 +1,14 @@
+eps:
+  br:
+    api:
+      - name: "audit"
+        url: "www.audit.com"
+        context: "/audit"
+      - name: "process-api1"
+        url: "www.process-api1.com"
+        context: "/process-api1"
+      - name: "process-api2"
+        url: "www.process-api2.com"
+        context: "process-api2"
+server:
+  port: 8087
